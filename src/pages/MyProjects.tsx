@@ -51,7 +51,8 @@ const MyProjects = () => {
                   onClick={() => navigate(`/projects/${project.id}`)}
                   key={project.id}
                   className="relative group w-72 max-sm:mx-auto cursor-pointer
-                            bg-gray-900/60 border border-gray-700/30 hover:border-indigo-800/80
+                            bg-gray-900/60 border border-gray-700 rounded-lg overflow-hidden
+                            shadow-md group hover:shadow-indigo-700/30 hover:border-indigo-800/80
                             transition-all duration-300"
                 >
                   <div
